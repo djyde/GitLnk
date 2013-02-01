@@ -1,0 +1,19 @@
+{
+  "name": "gitlnk",
+  "version": "0.1.0",
+  "description": "Get github repo informations by repo URL",
+  "main": "lib/gitlnk.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/djyde/GitLnk.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "dependencies": {
+    "request": "*"
+  },
+  "author": "Randy",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
