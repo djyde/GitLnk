@@ -14,7 +14,7 @@ npm install GitLnk
 下面以获取 ***joyent/node*** 仓库的star数量为例:
 
 ```javascript
-var gitlnk = require('../GitLnk');
+var gitlnk = require('gitlnk');
 
 gitlnk.starsCount('https://github.com/joyent/node',function(err,response,result){
   if(!err && response.statusCode == 200){
